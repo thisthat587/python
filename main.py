@@ -1,6 +1,3 @@
-
-def chaifn(n):
-    print(n)
-
-
+def chaifn(any):
+    print(any)
 chaifn("lemon tea")
