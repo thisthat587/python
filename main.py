@@ -1,1 +1,6 @@
-print("hello world")
+
+def chaifn(n):
+    print(n)
+
+
+chaifn("lemon tea")
