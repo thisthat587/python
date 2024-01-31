@@ -1,9 +1,9 @@
-def chaifn(n):
-    print(n)
+import sys
+from gtts import gTTS
+import os
 
-chaifn("lemon tea")
-
-name_one="piyush"
-name_two="kajal"
-name_three="abhishek"
-name_four="anand"
+text = sys.stdin.readline().strip()
+# text='hello'
+tts = gTTS(text, lang='en')
+tts.save('output.mp3')
+os.system('mpg123 output.mp3')
